@@ -23,6 +23,6 @@ public class MenuAdapter extends BaseQuickAdapter<ItemEntity,BaseViewHolder> {
 
     @Override
     protected void convert(BaseViewHolder helper, ItemEntity item) {
-
+        helper.setText(R.id.tv_item,item.itemName);
     }
 }
