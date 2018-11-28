@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zoub.androiddemos.ipc.IpcDemosActivity;
+import com.zoub.androiddemos.okhttp_demo.OkHttpDemoActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.rv)
     RecyclerView rv;
 
-    private static final String[] TITLE = {"IPC"};
-    private static final Class<?>[] ACTIVITY = {IpcDemosActivity.class};
+    private static final String[] TITLE = {"IPC","OKHTTP"};
+    private static final Class<?>[] ACTIVITY = {IpcDemosActivity.class,OkHttpDemoActivity.class};
 
     private List<ItemEntity> itemEntities = new ArrayList<>();
     private MenuAdapter mAdpater;
