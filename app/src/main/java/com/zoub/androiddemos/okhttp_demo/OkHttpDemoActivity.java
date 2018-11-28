@@ -57,7 +57,7 @@ public class OkHttpDemoActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-                LogUtils.d("onResponse:" + response.body().string());
+                LogUtils.d("异步Get请求,onResponse:" + response.body().string());
             }
         });
     }
