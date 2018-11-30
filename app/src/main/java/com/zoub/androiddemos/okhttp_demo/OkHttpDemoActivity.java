@@ -317,8 +317,6 @@ public class OkHttpDemoActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 
     public class  LogginIntercepter implements  Interceptor{
@@ -348,6 +346,6 @@ public class OkHttpDemoActivity extends AppCompatActivity {
     /**
      * 自定义DNS服务
      * */
-    
+
 
 }
