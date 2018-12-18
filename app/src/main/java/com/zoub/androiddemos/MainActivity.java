@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.zoub.androiddemos.countdown_demo.CountDownActivity;
 import com.zoub.androiddemos.ipc.IpcDemosActivity;
 import com.zoub.androiddemos.okhttp_demo.OkHttpDemoActivity;
 import com.zoub.androiddemos.recyclerview_demo.RecyclerViewDemo;
@@ -24,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.rv)
     RecyclerView rv;
 
-    private static final String[] TITLE = {"IPC","OKHTTP","RecyclerViewDemo"};
-    private static final Class<?>[] ACTIVITY = {IpcDemosActivity.class,OkHttpDemoActivity.class, RecyclerViewDemo.class};
+    private static final String[] TITLE = {"IPC","OKHTTP","RecyclerViewDemo","CountDownDemo"};
+    private static final Class<?>[] ACTIVITY = {IpcDemosActivity.class,OkHttpDemoActivity.class, RecyclerViewDemo.class, CountDownActivity.class};
 
     private List<ItemEntity> itemEntities = new ArrayList<>();
     private MenuAdapter mAdpater;

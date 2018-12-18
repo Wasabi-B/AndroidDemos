@@ -65,7 +65,6 @@ public class RecyclerViewDemo extends AppCompatActivity {
 
         final int[] distance = {0};
         final List<Integer> totalDistance = new ArrayList<>();
-
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {

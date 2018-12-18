@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".ipc.IpcDemosActivity" />
         <activity android:name=".okhttp_demo.OkHttpDemoActivity" />
-        <activity android:name=".recyclerview_demo.RecyclerViewDemo"></activity>
+        <activity android:name=".recyclerview_demo.RecyclerViewDemo" />
+        <activity android:name=".countdown_demo.CountDownActivity"></activity>
     </application>
 
 </manifest>
